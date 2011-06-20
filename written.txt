@@ -1,0 +1,77 @@
+S 683 Mid-Term Exam . Job Interview
+
+You can submit your answers to these questions in an email to me OR for extra credit of 10% answer these questions in a file along with your programing assignment and submit the answers using GITHub, when you submit the programming portion.   Each of these questions is worth 2.5 points for a total of 50 points.  Your programming test is worth 5 Point per part for a total of 50 points.  The entire exam is worth 100 points.
+
+Job Description
+
+Company XYZ is hiring an entry level PHP programmer to maintain and develop custom applications in PHP.   You will expected to be able to write object oriented PHP code, SQL queries, HTML, CSS, and Javascript/Jquery.  
+
+Applicants should be able to work in teams and should have experience using a version control system.   The ideal candidate should be familiar with new technologies like MongoDB/NoSQL databases, software design patterns, KISS, and DRY principles of software development.  Applicants should also have experience using the LINUX/UNIX command line.
+
+We are hiring an entry
+
+1.	What does the acronym KISS mean and how does following this make you a better computer programmer?
+
+KISS stands for Keep It Simple Stupid. Simplicity in programming ensures that your code will be legible to yourself in the future and to others when you are unavailable. This principle also ensures that you will retain your value as a programmer to your employees as they will be hesitant to hire or promote someone whose work is not easily usable.
+2.	What does the acronym DRY mean and why is it an essential principle of being a good computer programmer?
+DRY stands for Don.t Repeat Yourself. By not repeating elements of your code you ensure that every element within your code is represented by a single source so that if something needed to be adjusted there would only be one adjustment made. This simplifies things greatly.
+3.	What is the difference between a database like MongoDB and MySQL? 
+	
+	   
+4.	If you were asked to write a program that could write at least 50 different HTML tags how would you do it?
+
+I would use a foreach method that would loop through an associative array of HTML attributes as $key=>$value pairs and assign the tag type and attributes to pre-assigned variables in my class. 
+
+5.	What software design pattern would you be demonstrating in in the above solution?
+	A factory pattern.
+
+6.	What version control system(s) have you used?
+GitHub
+7.	What is GitHub and have you ever used it?  
+
+	GitHub is a version control system used by programmers to track versions of their code.
+ 
+8.	What is the command to create a GIT repository?
+Git init
+
+9.	What is the command to tell GIT to start tracking the file?
+git add
+
+10.	What is the command to commit your changes to the GIT log?
+
+	git commit -m 'something'
+
+11.	What is the command to add a remote repository?
+
+		git remote add origin [your git repo url]
+
+12.	What is the command to send your committed changes to the remote repository?
+git push -u origin master
+
+13.	What is your experience working in a software development team?
+I have worked on small teams to create java and php programs in a school environment with classmates.
+
+14.	How would you create a new file and directory in linux?
+Mkdir newDirectory
+Cd newDirectory
+Vi newFile.txt
+[add text]
+[hit esc]
+:w!
+:q!:
+
+15.	How would you set the permissions on a file / folder, so that another user can write to it.   i.e. so you the webserver can upload a file to the directory.
+Using the chmod command.
+16.	What program do you use to write your PHP code?
+	I usually use vi or notepad++.
+ 
+17.	What is a constructor in PHP and how/why would you use it?
+	A constructor constructs a predefined object. If I were to create an tree object in php I wouldn.t actually HAVE a tree until I construct it. For example: $maple = new tree;
+18.	What is the difference between a class and an object?
+	A class 
+19.	Why is it important to comment / document your code?
+	Commenting and documenting your code allows yourself and others to read understand and use/reuse your code.
+20.	What traits do you think a good computer programmer has?
+	Patience, an eye for detail a mathematical mind and an ability to clearly understand how his code works and be able to explain it to others.  
+		
+
