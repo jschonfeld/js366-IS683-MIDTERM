@@ -22,7 +22,7 @@ return $html;
 
 function arrayDivider($array){
 
-foreach($array as $key=>$value){<?
+foreach($array as $key=>$value){
 
 switch($key){
 case 'title':
